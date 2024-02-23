@@ -1,8 +1,11 @@
 Laravel Technical assignment
 
 To run the project
+
 clone the repo
+
 create database preferably mysql
+
 run:
 1. composer install
 2. cp .env.example .env
@@ -11,13 +14,13 @@ run:
 
 endpoints are:
 
-/api/register  signup
-/api/login  login
-/api/me  get the logged in user
-/api/forget_password  forgot password
-/api/reset_password  reset password
-/api/attendance to record attendance
-/api/attendance_report to generate attendance report
+1. api/register  signup
+2. api/login  login
+3. api/me  get the logged in user
+4. api/forget_password  forgot password
+5. api/reset_password  reset password
+6. api/attendance to record attendance
+7. api/attendance_report to generate attendance report
 
 
 
