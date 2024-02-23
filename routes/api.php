@@ -20,6 +20,7 @@ Route::middleware('auth:sanctum')->group(function() {
     Route::post('/attendance',[AttendanceController::class, 'recordAttendance']);
     Route::post('/attendance_report',[AttendanceController::class, 'attendanceReport']);
     Route::post('/update_employee',[UserController::class, 'update']);
+    Route::post('/logout',[UserController::class, 'logout']);
 });
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

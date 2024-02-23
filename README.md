@@ -21,6 +21,7 @@ endpoints are:
 5. api/reset_password  reset password
 6. api/attendance to record attendance
 7. api/attendance_report to generate attendance report
+8. api/logout  logout
 
 
 
