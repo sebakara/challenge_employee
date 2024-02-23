@@ -4,12 +4,13 @@ To run the project
 clone the repo
 create database preferably mysql
 run:
-composer install
-cp .env.example .env
-php artisan migrate
-php artisan serve
+1. composer install
+2. cp .env.example .env
+3. php artisan migrate
+4. php artisan serve
 
 endpoints are:
+
 /api/register  signup
 /api/login  login
 /api/me  get the logged in user
